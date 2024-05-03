@@ -1,9 +1,4 @@
-<script>
-	import Waves from '$lib/waves.svelte';
-</script>
-
 <footer>
-	<Waves />
 	<h3>Felipe J. O. Ribeiro</h3>
 </footer>
 
@@ -18,6 +13,5 @@
 		align-items: center;
 		justify-content: center;
 		min-height: 5em;
-		margin-top: -40em;
 	}
 </style>
