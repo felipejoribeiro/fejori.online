@@ -11,9 +11,11 @@
 </svelte:head>
 
 <main>
-	<Canvas>
-		<Scene />
-	</Canvas>
+	<div class="canvas-container">
+		<Canvas>
+			<Scene />
+		</Canvas>
+	</div>
 </main>
 
 <Footer />
@@ -23,10 +25,18 @@
 		display: flex;
 		flex-grow: 1;
 		flex-direction: column;
+		justify-content: flex-start;
 		align-items: center;
-		justify-content: center;
 		background: rgb(54, 43, 62);
 		background: radial-gradient(circle, rgba(54, 43, 62, 1) 0%, rgba(0, 0, 0, 1) 100%);
 		color: white;
+	}
+
+	.canvas-container {
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: flex-start;
+		overflow: visible;
 	}
 </style>
