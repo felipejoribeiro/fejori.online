@@ -22,7 +22,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: 'feliperibeiro.online'
+          BASE_PATH: 'fejori.online'
         run: |
           npm run build
           touch build/.nojekyll
